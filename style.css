@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #faf5f3;
+  display: flex inline-flex;
+  padding-top: 32px;
+  padding-left: 202px;
+}
+
+.background {
+  background-image: url(./44pattern-light-bg.svg);
+}
+.one {
+    display: flex ;
+    flex-direction: row;
+}
+.star {
+    display: flex;
+    flex-direction: row;
+}
+.tip {
+    display: flex;
+    flex-direction: row;
+}
+.ol{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
