@@ -17,14 +17,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 80px;
-  
-
-  
 }
 .star {
   display: flex;
   flex-direction: row;
-
 }
 .tip {
   display: flex;
@@ -37,49 +33,46 @@ body {
   gap: 50px;
   width: 50%;
 }
-.ol> p {    font-size: 20px;
-
+.ol > p {
+  font-size: 20px;
 }
-.ol > button{
-      gap: 16px;
-    width: 382px;
-    height: 64px;
-    border-radius: 10px;
-    background: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
-background-position-x: -400px;
-    transition: 200ms;
-    background-color: #FFF5EF;
-    min-height: 64px;
-    border: 2px #062630 solid;
-    border-radius: 8px;
-    margin: 0;
-    padding: 0;
-    color: #062630;
-    font-family: Martian Mono;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding-inline: 24px;
-    letter-spacing: -1px;
-    line-height: 130%;
-    justify-content: center;
-
+.ol > button {
+  gap: 16px;
+  width: 382px;
+  height: 64px;
+  border-radius: 10px;
+  background: no-repeat linear-gradient(90deg, #ffe2d1, #fff5ef);
+  background-position-x: -400px;
+  transition: 200ms;
+  background-color: #fff5ef;
+  min-height: 64px;
+  border: 2px #062630 solid;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  color: #062630;
+  font-family: Martian Mono;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-inline: 24px;
+  letter-spacing: -1px;
+  line-height: 130%;
+  justify-content: center;
 }
-.ol> h1 {
+.ol > h1 {
   font-family: Martian Mono;
   font-weight: bold;
   font-size: 82px;
 
   line-height: 120%;
   letter-spacing: -2px;
-  background: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
-    background-clip: text;
-    color: transparent;
-        
-  
-  }
+  background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+  background-clip: text;
+  color: transparent;
+}
 
 .ml {
   display: flex;
@@ -89,12 +82,34 @@ background-position-x: -400px;
 }
 
 .ml > img {
-  width: 536px;
-  height: 606px;
+  width: 704px;
+  height: 795px;
+  border-radius: 12px;
 }
- .hu{
+.hu {
   padding-bottom: 170px;
- }
- .ol >span {
+}
+.ol > span {
+}
+.sp {
+  color: #385159;
+  font-family: Martian Mono;
+  width: 264px;
+  height: 17;
+}
+.chek {
+  display: flex;
+  flex-direction: row;
+padding-top: 100px;
 
- }
+}
+.pck > img{
+  width: 560px;
+  height:520px;
+  border-radius: 12px;
+}
+.popo{ padding-left: 350px;
+  margin: 82px;
+
+}
+
